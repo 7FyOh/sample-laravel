@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return 'Hallo Welt!';
+    return 'Hello World!';
 });
 
 Route::get('env', function () {
