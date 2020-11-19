@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/env', function () {
+Route::get('env', function () {
     var_dump(env('DATABASE_URL'));
 });
